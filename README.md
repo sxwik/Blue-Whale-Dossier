@@ -1,92 +1,203 @@
-# Blue Whale Dossier 🐋 | Digital Anthropology Archive
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-bloodred)](#)
-[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-purple)](https://www.framer.com/motion/)
+```
+██████╗ ██╗     ██╗   ██╗███████╗    ██╗    ██╗██╗  ██╗ █████╗ ██╗     ███████╗
+██╔══██╗██║     ██║   ██║██╔════╝    ██║    ██║██║  ██║██╔══██╗██║     ██╔════╝
+██████╔╝██║     ██║   ██║█████╗      ██║ █╗ ██║███████║███████║██║     █████╗
+██╔══██╗██║     ██║   ██║██╔══╝      ██║███╗██║██╔══██║██╔══██║██║     ██╔══╝
+██████╔╝███████╗╚██████╔╝███████╗    ╚███╔███╔╝██║  ██║██║  ██║███████╗███████╗
+╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝     ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
+```
 
-An interactive, academic, and highly polished digital anthropology dossier analyzing the 2016-2017 "Blue Whale" phenomenon. This project serves as an exploration of UI/UX design, focusing on creating a "premium editorial experience" with archival aesthetics, structural restraint, and cinematic micro-interactions.
+**D O S S I E R**
 
-Designed and engineered by [@sxwik](https://github.com/sxwik) as a deep dive into advanced frontend execution, typography harmonization, and atmospheric web design.
-
----
-
-## 👁️ The Vision
-
-The aim of this project was to move beyond standard web layouts and build something that feels like a **living document**. Instead of employing flashy interfaces or complex backend architectures, this project tests the ability to manipulate **atmosphere, typography, and negative space**.
-
-The site is crafted to evoke the feeling of reading a declassified intelligence document or a modern museum archive—using subtle background noise overlays, precise typography pairings, and deliberate animation physics.
-
-### Key Aesthetic Principles Executed:
-- **Architectural Honesty:** No tech-larping. UI components are minimal, avoiding overused gradients or standard card shadows.
-- **Editorial Typography:** Harmonizing `Playfair Display` for dominant headings, `Inter` for highly readable body text, and `JetBrains Mono` for metadata and technical labeling.
-- **Controlled Restraint:** Leveraging whitespace and subtle spacing ratios (like 65ch max-widths) to naturally guide the user's eye down the document.
-- **Archival Interactions:** Replacing standard hover effects with interactive redacted text reveals, micro-delayed fades, and smooth Y-axis element drifting.
+*A Digital Anthropology Archive · 2016–2017*
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+[![STATUS](https://img.shields.io/badge/STATUS-DECLASSIFIED-cc0000?style=for-the-badge&labelColor=0a0a0a)](/)
+[![CLEARANCE](https://img.shields.io/badge/CLEARANCE-PUBLIC-444?style=for-the-badge&labelColor=0a0a0a)](/)
+[![React](https://img.shields.io/badge/REACT-18-61DAFB?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0a0a0a)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TYPESCRIPT-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=3178C6&labelColor=0a0a0a)](https://www.typescriptlang.org/)
+[![Tailwind](https://img.shields.io/badge/TAILWIND-4.x-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC&labelColor=0a0a0a)](https://tailwindcss.com/)
+[![Framer](https://img.shields.io/badge/FRAMER_MOTION-12-A855F7?style=for-the-badge&logo=framer&logoColor=A855F7&labelColor=0a0a0a)](https://www.framer.com/motion/)
 
-This project is built on a modern, lightning-fast frontend stack, architected exclusively as a Single Page Application (SPA).
+<br/>
 
-- **Core Framework:** [React 18](https://reactjs.org/) (Hooks & Functional Components)
-- **Language:** [TypeScript](https://www.typescriptlang.org/) for uncompromising type safety, maintainability, and clean prop definitions.
-- **Build Tool:** [Vite](https://vitejs.dev/) for instant HMR development and highly optimized production bundling.
-- **Styling Engine:** [Tailwind CSS v4](https://tailwindcss.com/) used for utility-first styling, configuring custom color tokens (charcoal, ivory, graphite, blood), and fluid responsive breakpoints.
-- **Motion & Animation:** [Framer Motion](https://motion.dev/) utilized for scroll-linked animations, container staggering (`staggerChildren`), and custom physics-based easings (`[0.16, 1, 0.3, 1]`).
+> *"The most terrifying application was the one that never existed."*
 
-### Specialized Implementation Details
-- **CSS-Generated SVG Noise Filter:** A custom `.noise-overlay` class rendering a highly performant fractal noise SVG, projecting a subtle paper/dust texture across the viewport without massive image assets.
-- **Ambient Radial Gradients:** Fixed background layering combining base ivory (`#F8F7F4`) with extremely low-opacity blood and charcoal accents for cinematic depth.
-- **Responsive Grid Typography:** Fully fluid layout structures ensuring the dossier's massive typography elegantly compresses on mobile while maintaining its austere tone.
+<br/>
 
----
-
-## 📖 Dossier Structure
-
-The application is divided into thoughtfully paced, scholarly sections, deconstructing the phenomenon objectively:
-
-1. **Spread Timeline:** A chronological trace from obscure VKontakte origins to global institutional hysteria.
-2. **Verification Analysis:** Structural breakdowns separating Confirmed Criminal Activity from Unverified Media Hysteria.
-3. **Information Contagion Sequence:** A 5-stage memetic spread model detailing localized formation up through myth solidification.
-4. **Sociological Vulnerabilities & Psychology:** Examining intersectional factors like Sleep Deprivation, Sunk Cost Fallacies, and Adolescent Identity Formation.
-5. **Technical Audit & Legal Precedents:** Concrete factual overviews confirming the non-existence of a standalone APK, backed by convictions of instigators.
-6. **Interface Mythology:** A digital anthropology commentary on how public imagination anthropomorphizes decentralized structures into threatening 'applications'.
+</div>
 
 ---
 
-## 🚀 Getting Started
+## ∅ · PREAMBLE
 
-To explore or modify this dossier locally:
+This is not a standard repository.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/sxwik/blue-whale-dossier.git
-   cd blue-whale-dossier
-   ```
+There is no backend. There are no users to track. No database of victims, no recovered chat logs, no intercepted transmissions. What exists here is a **frontend artifact** — a document built to look, feel, and breathe like evidence — engineered to examine how a decentralized social panic crystallized into global institutional hysteria between 2016 and 2017.
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+The **Blue Whale Dossier** is a single-page digital archive. An editorial interface. A post-mortem dressed as a museum exhibit. Built not to sensationalize, but to anatomize: to isolate the mechanisms by which ambiguous online phenomena become myths, myths become headlines, and headlines become legislation.
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
+This repository is the source. The study. The method.
 
 ---
 
-## 📝 Authors & Credits
+## ⬡ · THE VISION
 
-- **Architecture, Code, and Design Engineering:** [@sxwik](https://github.com/sxwik)
+> **Premium editorial experience.** Archival aesthetics. Structural restraint. Cinematic micro-interactions.
 
-*Constructed to push the limits of what a frontend application can evoke through pure typography and CSS craftsmanship.*
+The design brief was deceptively simple: build something that feels like reading a **declassified intelligence brief inside a modern museum**. No dashboard chrome. No SaaS gradients. No card shadows borrowed from Notion or Linear.
 
-> *"Do not romanticize. View through critical structuralism."*
+The visual identity commits to one precise atmosphere — **institutional gravity**. The kind of weight a document carries when the events it describes actually happened to real people.
+
+### Core Aesthetic Tenets
+
+| Principle | Execution |
+|---|---|
+| **Architectural Honesty** | Zero ornamental UI. Every element earns its presence or gets cut. |
+| **Editorial Typography** | `Playfair Display` for dominant headings. `Inter` for long-form readability. `JetBrains Mono` for metadata, classifications, and technical labels. |
+| **Controlled Restraint** | `65ch` max-widths. Deliberate spacing ratios. Whitespace as a *structural material*, not an afterthought. |
+| **Archival Interaction** | Redacted text reveals on hover. Micro-delayed element fades. Smooth Y-axis drift as content enters the viewport. |
+| **Textural Depth** | CSS-generated SVG fractal noise overlaid at near-zero opacity — paper grain without a single bitmap asset. |
+
+---
+
+## ⬡ · STACK & ARCHITECTURE
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  TECHNICAL SPECIFICATION · BLUE WHALE DOSSIER v1.0          ║
+╠══════════════════════════════════════════════════════════════╣
+║  RUNTIME         React 18 · Functional Components · Hooks   ║
+║  LANGUAGE        TypeScript 5.x · Strict Mode               ║
+║  BUILD           Vite · HMR · Optimized Production Bundle   ║
+║  STYLING         Tailwind CSS v4 · Custom Token System      ║
+║  MOTION          Framer Motion 12 · Physics Easings         ║
+║  ARCHITECTURE    SPA · Zero Backend · Zero Auth             ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+### Implementation Notes
+
+**CSS Noise Layer** — A `.noise-overlay` class renders a high-performance SVG fractal noise filter (`feTurbulence`) across the full viewport, creating an analogue paper/dust texture without loading a single external image asset. The filter is composited at `opacity: 0.04` — below conscious perception, above flatness.
+
+**Ambient Depth System** — Background layers combine an ivory base (`#F8F7F4`) with fixed radial gradients using near-zero opacity blood-red and charcoal accents. The result is a subtle atmospheric warmth — visible when you're not looking for it, invisible when you are.
+
+**Physics-Based Scroll Animation** — Framer Motion's `staggerChildren` orchestrates viewport-entry animations across all major sections. Custom easing `[0.16, 1, 0.3, 1]` produces a slight overshoot-and-settle at rest — the motion of a document being placed on a table, not a web element fading in.
+
+**Interactive Redaction** — Selected text blocks use CSS `blur` + `letter-spacing` toggled on `:hover`, simulating a redacted document reveal. The interaction communicates: *this information exists, but at what cost to clarity?*
+
+---
+
+## ⬡ · DOSSIER STRUCTURE
+
+The archive is divided into six sections, each functioning as a discrete analytical chapter.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  § 01  SPREAD TIMELINE                                       │
+│        Chronological trace: VKontakte origins → global      │
+│        institutional response. Mapping the contagion path.  │
+├─────────────────────────────────────────────────────────────┤
+│  § 02  VERIFICATION ANALYSIS                                 │
+│        Confirmed Criminal Activity ≠ Unverified Media       │
+│        Hysteria. Structural breakdown of what was real.     │
+├─────────────────────────────────────────────────────────────┤
+│  § 03  INFORMATION CONTAGION SEQUENCE                        │
+│        Five-stage memetic spread model: localized           │
+│        formation → normalization → myth solidification.     │
+├─────────────────────────────────────────────────────────────┤
+│  § 04  SOCIOLOGICAL VULNERABILITIES                          │
+│        Sleep deprivation. Sunk cost fallacies. Adolescent   │
+│        identity formation. The pre-existing conditions.     │
+├─────────────────────────────────────────────────────────────┤
+│  § 05  TECHNICAL AUDIT & LEGAL PRECEDENTS                   │
+│        Confirmation: no standalone APK exists or existed.   │
+│        Curator convictions. The actual crime on record.     │
+├─────────────────────────────────────────────────────────────┤
+│  § 06  INTERFACE MYTHOLOGY                                   │
+│        Digital anthropology commentary on how the public    │
+│        mind anthropomorphizes decentralized harm into       │
+│        legible, threatening "applications."                  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## ⬡ · LOCAL SETUP
+
+```bash
+# Clone the dossier
+git clone https://github.com/sxwik/blue-whale-dossier.git
+cd blue-whale-dossier
+
+# Install dependencies
+npm install
+
+# Open the archive
+npm run dev
+
+# Production build
+npm run build
+```
+
+No environment variables. No `.env` file. No API keys. No secrets.
+This document needs nothing from the outside world.
+
+---
+
+## ⬡ · DESIGN DECISIONS DOCUMENTED
+
+**Why no dark mode toggle?**
+The dossier has a fixed palette. Ivory and charcoal. Declassified documents don't have color scheme preferences.
+
+**Why `65ch` max-width?**
+Optimal reading line length for dense, analytical text is 55–75 characters. `65ch` sits precisely at the cognitive sweet spot — wide enough for authority, narrow enough for pace.
+
+**Why `Playfair Display` for headings?**
+Playfair is editorial serif with a high contrast between thick and thin strokes — the typographic language of newspapers, academic journals, and court documents. It carries weight without shouting.
+
+**Why JetBrains Mono for metadata?**
+Monospaced fonts signal precision and classification. When a label reads in `JetBrains Mono`, it registers as: *this was output by a system, not written by a person*. Exactly the register archival metadata should occupy.
+
+**Why the noise overlay?**
+Flatness is not neutrality. A screen with no texture reads as digital — synthetic — designed. The noise layer introduces organic entropy at subliminal scale. The document breathes. It ages. It feels like it was found.
+
+---
+
+## ⬡ · WHAT THIS PROJECT IS NOT
+
+- It is not a glamorization or a memorial.
+- It is not a comprehensive psychological study.
+- It is not journalism, legal analysis, or crisis intervention.
+- It is not an endorsement of panic, nor a dismissal of harm.
+
+It is a **frontend engineering document** that chose a subject serious enough to demand the design live up to it.
+
+---
+
+## ⬡ · AUTHOR
+
+```
+ARCHITECT ·········· @sxwik
+                     github.com/sxwik
+
+ROLE ··············· Architecture, Code, Design Engineering
+                     Typography, Motion, Component System
+
+FILED ·············· 2024
+```
+
+---
+
+<div align="center">
+
+```
+[ DOCUMENT ENDS ]
+```
+
+*Built to look real. Engineered to be honest.*
+
+</div>

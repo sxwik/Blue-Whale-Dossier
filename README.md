@@ -186,8 +186,6 @@ ARCHITECT ·········· @sxwik
 
 ROLE ··············· Architecture, Code, Design Engineering
                      Typography, Motion, Component System
-
-FILED ·············· 2024
 ```
 
 ---
